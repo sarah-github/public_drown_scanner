@@ -12,10 +12,10 @@ from Crypto.Cipher import AES
 import hashlib
 from Crypto.Cipher import PKCS1_v1_5#,PKCS1_OAEP
 from scapy.layers.inet import TCP, UDP, IP
-from ssl_tls import TLSHandshake,TLSServerHello,TLSClientHello,TLSCertificateList, \
-                    TLSClientKeyExchange,TLSKexParamEncryptedPremasterSecret, \
-                    TLS_CIPHER_SUITES, TLSRecord, TLSCiphertextDecrypted, \
-                    TLSCiphertextMAC
+#from ssl_tls import TLSHandshake,TLSServerHello,TLSClientHello,TLSCertificateList, \
+#                    TLSClientKeyExchange,TLSKexParamEncryptedPremasterSecret, \
+#                    TLS_CIPHER_SUITES, TLSRecord, TLSCiphertextDecrypted, \
+#                    TLSCiphertextMAC
 import struct
 import pkcs7
 import array
